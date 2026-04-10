@@ -6,7 +6,7 @@
       <p class="location">{{ activity.location }}</p>
       <div class="card-footer">
         <span class="price">${{ activity.price }}</span>
-        <button>Add</button>
+        <button @click="$emit('add', activity)">Add</button>
       </div>
     </div>
   </div>
