@@ -59,6 +59,7 @@ cd cs732-vue-tutorial
 3. Install dependencies
 
 npm install
+
 npm install vue-router  
 
 4. Start the development server
